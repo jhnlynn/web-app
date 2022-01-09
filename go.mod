@@ -1,4 +1,4 @@
-module joke
+module web-app
 
 go 1.17
 

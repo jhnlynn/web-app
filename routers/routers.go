@@ -3,8 +3,8 @@ package routers
 import (
 	"github.com/gin-gonic/gin"
 	cors "github.com/rs/cors/wrapper/gin"
-	"joke/inventory/inventoryItem/responsesHandlers"
-	"joke/utils/imageUpload"
+	"web-app/inventory/inventoryItem/responsesHandlers"
+	"web-app/utils/imageUpload"
 
 	//"go-play/middleware"
 )

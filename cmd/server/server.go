@@ -1,7 +1,7 @@
 package main
 
 import (
-	"joke/routers"
+	"web-app/routers"
 )
 
 func main() {

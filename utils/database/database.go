@@ -3,8 +3,8 @@ package database
 import (
 	"database/sql"
 	"github.com/gin-gonic/gin"
-	"joke/config"
-	"joke/utils/processErr"
+	"web-app/config"
+	"web-app/utils/processErr"
 )
 
 func OpenDB(c *gin.Context) *sql.DB {

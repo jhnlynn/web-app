@@ -6,14 +6,14 @@
 		"github.com/gin-gonic/gin"
 		_ "github.com/go-sql-driver/mysql"
 		"github.com/jmoiron/sqlx"
-		"joke/config"
-		"joke/inventory/inventoryItem"
-		"joke/inventory/inventoryItemPo"
-		"joke/utils/database"
-		"joke/utils/processErr"
 		"log"
 		"net/http"
 		"strconv"
+		"web-app/config"
+		"web-app/inventory/inventoryItem"
+		"web-app/inventory/inventoryItemPo"
+		"web-app/utils/database"
+		"web-app/utils/processErr"
 	)
 	
 // CreateItem localhost:4000/create
