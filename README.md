@@ -128,7 +128,7 @@ http://localhost:4000/delete?query-id=1
 Choose POST
 
 ```
-http://localhost:4000/upload_test
+http://localhost:4000/upload_test?item-id=2
 ```
 
 On the right upper of `BODY` input box, choose `Form`

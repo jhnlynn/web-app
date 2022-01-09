@@ -133,6 +133,8 @@ func saveImageToDB(c *gin.Context, thumbnail string) {
 		"UPDATE inventory_item SET  thumbnail   = ? WHERE id   = ?;",
 	)
 
+	fmt.Println(thumbnail)
+
 	_, err2 := update.Exec(
 		"../../uploads/thumbs/" + thumbnail,
 		itemId,
